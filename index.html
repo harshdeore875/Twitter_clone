@@ -93,7 +93,7 @@
                     <div class="postbutton hidden xl:block">
                         <button
                             class="post bg-[#272C30] text-white p-6  rounded-full text-[20px] font-bold w-[222px] h-10 flex items-center justify-center ">
-                            <div class="text">Post</div>
+                            <div class="text flex flex-col justify-items-center">Post</div>
                         </button>
                     </div>
                 </div>
@@ -101,7 +101,7 @@
         </div>
 
         <div class="secondcontainer  xl:w-[40%] lg:w-[60%] w-[90%] border-x-gray-200 border-y-white border-[1px]   ">
-            <div class="twoside flex m-5 justify-around items-center ">
+            <div class="twoside flex  justify-around items-center sticky top-0 bg-white z-10 p-3 ">
                 <div class="left  text-[16px] font-bold">For you</div>
                 <div class="right text-[16px] font-bold">Following</div>
             </div>
@@ -121,7 +121,7 @@
                     </div>
                     <div class="h1 h-0.5 bg-gray-200 w-full"></div>
 
-                    <div class="icons flex flex-wrap">
+                    <div class="icons  sm:flex  ">
                         <div class="flex  space-x-3 mt-2 w-full">
                             <img src="logos/gallery.svg" class=" cursor-pointer" alt="">
                             <img src="logos/gif.svg" class="cursor-pointer" alt="">
@@ -270,7 +270,7 @@
 
 
 
-        <div class="thirdcontainer  w-[20%] lg:block hidden  ">
+        <div class="thirdcontainer  w-[30%] lg:block hidden  ">
             <div class="third sticky top-0">
 
                 <div class="searchbar ">
@@ -298,13 +298,64 @@
                 </div>
     
     
-                <div class="whotofollow border-2 border-gray-300 m-3 p-3 w-full rounded-3xl ">
-                    <div class="text-xl font-bold">Who's to Follow</div>
-                    <div class="item my-4  cursor-pointer space-y-3  ">
-                        <div class=" text-[17px] cursor-pointer px-2  ">Vicky Kaushal</div>
-                        <div class=" text-[17px] cursor-pointer px-2  ">Katerina Kaf</div>
-                        <div class=" text-[17px] cursor-pointer  px-2  ">Akashy Kumar</div>
-                        <div class=" text-[15px] my-3 mx-3 cursor-pointer text-blue-400">Show More</div>
+                <div class="whotofollow border-2 border-gray-300 m-3 p-3 w-full  rounded-3xl ">
+                    <div class="text-xl font-bold mb-5">Who's to Follow</div>
+                    <div class="item my-4 flex-row cursor-pointer space-y-3  ">
+                        
+                
+                        <div class="cardprofile flex px-2 gap-3 justify-items-center">
+                            <img src="https://pbs.twimg.com/profile_images/874276197357596672/kUuht00m_400x400.jpg" class="w-12 rounded-full" alt="">
+                          <div class="flex justify-between w-full">
+                              <div class="text flex flex-col justify-items-center">
+                                 <div class="profileid font-bold hover:underline cursor-pointer">
+                                     Donald J. Trump
+                                 </div>
+                                 <div class="greytext ">
+                                     @realDonaldTrump
+                                 </div>
+                             </div>
+                             <div class="button  ">
+                                  <button class="bg-black rounded-full px-3 py-2 font-bold text-[14px] text-white "> Follow</button>
+                             </div>
+                          </div>
+                        </div>
+
+                        <div class="cardprofile flex px-2 gap-3 justify-items-center">
+                            <img src="https://pbs.twimg.com/profile_images/1879013694367252480/Gxa-Pspq_400x400.jpg" class="w-12 rounded-full" alt="">
+                          <div class="flex justify-between w-full">
+                              <div class="text flex flex-col justify-items-center ">
+                                 <div class="profileid font-bold hover:underline cursor-pointer">
+                                     Bill Gates
+                                 </div>
+                                 <div class="greytext ">
+                                     @BillGates
+                                 </div>
+                             </div>
+                             <div class="button  ">
+                                  <button class="bg-black rounded-full px-3 py-2 font-bold text-[14px] text-white "> Follow</button>
+                             </div>
+                          </div>
+                        </div>
+
+                        <div class="cardprofile flex px-2 gap-3 justify-items-center">
+                            <img src="https://pbs.twimg.com/profile_images/3478244961/01ebfc40ecc194a2abc81e82ab877af4_400x400.jpeg" class="w-12 rounded-full" alt="">
+                          <div class="flex justify-between w-full">
+                              <div class="text flex flex-col justify-items-center ">
+                                 <div class="profileid font-bold hover:underline cursor-pointer">
+                                    Dwayne Johnson
+                                 </div>
+                                 <div class="greytext ">
+                                     @TheRock
+                                 </div>
+                             </div>
+                             <div class="button  ">
+                                  <button class="bg-black rounded-full px-3 py-2 font-bold text-[14px] text-white "> Follow</button>
+                             </div>
+                          </div>
+                        </div>
+
+                        
+                       
                     </div>
     
                 </div>
